@@ -1,0 +1,143 @@
+/*font-family: 'Merriweather', serif;*/
+
+/*Common start*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+/*Common end*/
+
+/*HEADER START*/
+header{
+	background-color: black;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #ffffff !important;
+	padding: 0 25px !important;
+}
+.menu ul li a:hover{
+     color: red !important;
+}
+.f-control{
+	width: 214px;
+    height: 40px;
+    border-radius: 30px;
+}
+.c-icon{}
+
+/*HEADER END*/
+/*BANNER START*/
+.banner{
+	background-image: url(../images/night.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.b_text{
+	margin-right: 80px;
+}
+.b_text h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: white;
+	padding-top: 260px;
+	letter-spacing: 3px;
+	text-align: right;
+}
+.b_text button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	background-color: #8826CB;
+	border: 0;
+	width: 260px;
+     height: 60px;
+     border-radius: 40px;
+     margin-top: 45px;
+     margin-left: 290px;
+}
+.b_text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 260px;
+}
+/*BANNER END*/
+.blog{
+	background-color: #2D3A4D;
+	color: white;
+}
+/*BLOG START*/
+.blog-text{}
+.blog-text h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+.blog-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.c-h2{
+	padding-top: 60px !important;
+}
+/*BLOG END*/
+/*HERO START*/
+
+.hero{
+	background-image: url(../images/tree.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#d54c63;
+	}
+.h-overlay{}
+.h-overlay h1{
+	padding-top: 153px;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	text-align:center;
+	color: black;
+}
+.h-overlay p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align:center;
+	color: black;
+	letter-spacing: 1px;
+	padding-bottom: 15px;
+}
+.h-overlay button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #d54c63;
+	width: 300px;
+	height: 60px;
+	border-radius: 40px;
+	margin-left: 110px;
+	margin-bottom: 110px;
+	border: 0;
+}
+
+/*HERO END*/
